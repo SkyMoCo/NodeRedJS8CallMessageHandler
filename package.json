@@ -1,33 +1,30 @@
 {
-  "name": "node-red-contrib-js8call-interface",
-  "version": "1.0.0",
-  "description": "Interface between NodeRed and JS8Call",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/SkyMoCo/NodeRedJS8CallMessageHandler.git"
-  },
-  "keywords": [
-    "js8call",
-    "ham",
-    "radio"
-  ],
-  "author": "Kevin Smolkowski",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SkyMoCo/NodeRedJS8CallMessageHandler/issues"
-  },
-  "homepage": "https://github.com/SkyMoCo/NodeRedJS8CallMessageHandler#readme"
-}
-{
-    "name" : "node-red-contrib-js8callinterface",
-    ...
+    "name": "node-red-contrib-js8call-interface",
+    "version": "1.0.0",
+    "description": "Interface between NodeRed and JS8Call",
+    "main": "index.js",
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+	"type": "git",
+	"url": "git+ssh://git@github.com/SkyMoCo/NodeRedJS8CallMessageHandler.git"
+    },
+    "keywords": [
+	"js8call",
+	"ham",
+	"radio"
+    ],
+    "author": "Kevin Smolkowski",
+    "license": "ISC",
+    "bugs": {
+	"url": "https://github.com/SkyMoCo/NodeRedJS8CallMessageHandler/issues"
+    },
+    "homepage": "https://github.com/SkyMoCo/NodeRedJS8CallMessageHandler#readme",
     "node-red" : {
         "nodes": {
             "JS8-Connector": "js8connector.js"
         }
     }
-}
+}    
+
